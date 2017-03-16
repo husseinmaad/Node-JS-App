@@ -1,0 +1,21 @@
+{
+  "name": "mytasklist",
+  "version": "1.0.0",
+  "description": "Simple task manager",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Hussein M. Al-Sammaraie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mangojs": "0.0.2",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
